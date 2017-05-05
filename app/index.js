@@ -1,5 +1,6 @@
-import _ from 'lodash';
+import _ from 'lodash'
 import j from 'jquery'
+import liqi from './liqi'
 function component () {
   var element = j('<div></div>')
 
@@ -10,3 +11,5 @@ function component () {
 }
 
 document.body.appendChild(component());
+console.log(liqi)
+console.log(liqi())
