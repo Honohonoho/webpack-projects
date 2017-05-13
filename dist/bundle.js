@@ -27443,14 +27443,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 function component () {
   var element = __WEBPACK_IMPORTED_MODULE_1_jquery___default()('<div></div>');
+
   /* lodash is required for the next line to work */
-  element.html(__WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hello','webpack'],' '))
+  element.html(__WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hi','webpack'],' '))
 
   return element.get(0);
 }
 
 document.body.appendChild(component());
-//console.log(liqi)
 console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__liqi__["a" /* default */])())
 
 /***/ }),
